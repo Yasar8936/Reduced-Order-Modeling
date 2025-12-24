@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.idea/
+
+# Data (don't push big files)
+data/raw/
+data/processed/
+*.h5
+
+# Results that can be regenerated
+results/checkpoints/
+results/logs/
+
+# OS
+.DS_Store
+Thumbs.db

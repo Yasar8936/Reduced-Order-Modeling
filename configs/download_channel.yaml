@@ -1,0 +1,22 @@
+dataset_title: "channel"
+variable: "velocity"
+
+# time indices (integers)
+t_start: 1
+t_end: 50
+t_step: 1
+
+# cutout ranges (inclusive indices, same style you used)
+x_range: [1, 4]
+y_range: [1, 32]
+z_range: [1, 32]
+
+# strides (downsampling inside the cutout)
+x_stride: 1
+y_stride: 1
+z_stride: 1
+
+# output
+out_h5: "data/raw/channel_velocity_cutouts_t1_t50.h5"
+compression: "gzip"
+compression_level: 4

@@ -1,0 +1,9 @@
+data_h5: "data/processed/channel_velocity_norm.h5"
+ae_ckpt: "results/checkpoints/ae/best_ae.pt"
+gru_ckpt: "results/checkpoints/gru/best_gru.pt"
+
+# how many steps to predict forward during test
+rollout_steps: 7
+
+# outputs
+report_txt: "results/reports/rom_eval.txt"

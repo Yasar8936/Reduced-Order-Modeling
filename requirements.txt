@@ -1,0 +1,14 @@
+numpy
+scipy
+matplotlib
+scikit-learn
+h5py
+tqdm
+pyyaml
+
+# Deep learning (PyTorch)
+torch
+torchvision
+
+# JHTDB access 
+pyJHTDB

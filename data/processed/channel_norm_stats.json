@@ -1,0 +1,20 @@
+{
+  "raw_h5": "D:\\PyCharm\\Reduced Order Modeling\\data\\raw\\channel_velocity_cutouts_t1_t50.h5",
+  "processed_h5": "D:\\PyCharm\\Reduced Order Modeling\\data\\processed\\channel_velocity_norm.h5",
+  "normalization": "standard",
+  "mean": [
+    0.22641190886497498,
+    0.002606053836643696,
+    0.0006629429990425706
+  ],
+  "std": [
+    0.2173999696969986,
+    0.014478141441941261,
+    0.03725065290927887
+  ],
+  "splits": {
+    "train": 35,
+    "val": 7,
+    "test": 8
+  }
+}

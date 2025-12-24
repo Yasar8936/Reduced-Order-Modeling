@@ -1,0 +1,11 @@
+raw_h5: "data/raw/channel_velocity_cutouts_t1_t50.h5"
+processed_h5: "data/processed/channel_velocity_norm.h5"
+stats_json: "data/processed/channel_norm_stats.json"
+
+train_frac: 0.70
+val_frac: 0.15
+test_frac: 0.15
+
+normalization: "standard"
+compression: "gzip"
+compression_level: 4

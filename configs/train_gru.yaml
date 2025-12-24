@@ -1,0 +1,14 @@
+data_h5: "data/processed/channel_velocity_norm.h5"
+ae_ckpt: "results/checkpoints/ae/best_ae.pt"
+
+# where to save latent sequences
+latent_h5: "data/processed/channel_latent.h5"
+
+# training GRU
+batch_size: 8
+epochs: 50
+learning_rate: 0.001
+
+# outputs
+ckpt_dir: "results/checkpoints/gru"
+loss_csv: "results/metrics/gru_loss.csv"

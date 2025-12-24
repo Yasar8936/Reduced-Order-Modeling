@@ -1,0 +1,17 @@
+data_h5: "data/processed/channel_velocity_norm.h5"
+
+# which split to use for training/validation
+train_key: "idx_train"
+val_key: "idx_val"
+
+# training
+batch_size: 4
+epochs: 30
+learning_rate: 0.001
+
+# model
+latent_dim: 128
+
+# outputs
+ckpt_dir: "results/checkpoints/ae"
+loss_csv: "results/metrics/ae_loss.csv"

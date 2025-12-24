@@ -1,0 +1,18 @@
+ROM Evaluation Report
+Data file: D:\PyCharm\Reduced Order Modeling\data\processed\channel_velocity_norm.h5
+AE ckpt  : D:\PyCharm\Reduced Order Modeling\results\checkpoints\ae\best_ae.pt
+GRU ckpt : D:\PyCharm\Reduced Order Modeling\results\checkpoints\gru\best_gru.pt
+Latent dim: 128
+Rollout steps: 7
+
+Mean MSE per predicted step (velocity_norm space):
+  step 1: 0.419012
+  step 2: 0.489474
+  step 3: 0.554188
+  step 4: 0.618124
+  step 5: 0.680967
+  step 6: 0.741926
+  step 7: 0.800218
+
+Average ROM rollout time for 7 steps: 0.018464 seconds
+(This is only ROM compute time: encode+GRU+decode, not data download.)
